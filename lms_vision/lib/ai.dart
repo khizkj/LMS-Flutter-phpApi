@@ -37,7 +37,7 @@ class _AIPageState extends State<AIPage> {
   );
 
   Future<void> generateContent(String prompt) async {
-    const apiKey = 'AIzaSyCl_pp01pQjjb8VJGqJFpu1wYVr4K3YqK8'; // Replace with your API key
+    const apiKey = your apikey
     final model = GenerativeModel(model: 'gemini-2.5-flash', apiKey: apiKey);
 
     final timestamp = DateTime.now();
